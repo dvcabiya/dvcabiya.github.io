@@ -1,4 +1,4 @@
-# [dvcabiya.github.io](https://vcabiya.github.io/)
+# [dvcabiya.github.io](https://dvcabiya.github.io/)
 ## my website for silly activities (blog posts and assorted projects)
 
 This will mainly be where I host projects
