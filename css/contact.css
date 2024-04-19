@@ -1,0 +1,19 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height:fit-content;
+  height: 96vh;
+  font-size: 100%;
+}
+a{
+  font-style: italic; 
+  color: #E81452;
+}
+a:hover{
+  color: #DA0036;
+}
+.padded{
+margin-top: 40px;
+}
