@@ -27,7 +27,11 @@ a{
   font-style: italic; 
   font-size: 40px;
   color: #E81452;
+  fill: #E81452;
+
 }
 a:hover{
   color: #DA0036;
+  fill: #DA0036;
+
 }
