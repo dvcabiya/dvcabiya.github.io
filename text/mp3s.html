@@ -1,0 +1,60 @@
+<head>
+    <style>
+        code{
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight:bolder;
+            background-color: lightgray;
+        }
+        li{
+            padding: 2px
+        }
+    </style>
+    <link rel="stylesheet" href="../css/mp3s.css">
+</head>
+
+<body>
+    <div class="main">
+        <h3 style="font-size: 25px; text-decoration: underline;">some info on downloading music</h3>
+        <p>this is how u do it bb</p>
+        <p>disclaimer - i don't really care about audio fidelity. i pretty much only listen to mp3s 
+            so as to not get my ears accustomed to some strange magical quality that FLACs or stuff like
+            them are supposed to have. this info is tailored for mp3s
+        </p>
+        <h3>hardware</h3>
+        <ul>
+            <li style="text-decoration: underline; font-weight: bold;">sony nw-a16</li>
+            <t>this is a pretty random choice, i've not seen a lot of people
+                talking about it specifically. it just popped up a good deal when 
+                i was 18 looking for mp3 players on ebay, so i use it. 
+                
+                <br/><br/>as a quick review:<br/>
+                <strong>battery life</strong> - pretty nice, withstanding intermittent hour long sessions
+                for about a week on a single charge. you could probably have it going for a day straight
+                playing music. <br/>
+                <strong>audio quality</strong> - this thing sounds pretty good. about what you'd get out of an 
+                iphone, from my unprofessional ears
+                <br/><br/>
+                there's other walkmans that have the exact same shape which 
+                only seem to vary in on-board memory (nw-a25 for example). the nw-a16 has the most of any i've seen, 32gb, which is
+                pretty damn big for standard mp3s, but it doesn't really matter since it has an microSD card slot
+            </t>
+        </ul>
+        <h3>software to install</h3>
+        <ul>
+            <li><a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a></li>
+            <li><a href="https://github.com/mhogomchungu/media-downloader">media downloader</a></li>
+            <ul> <li>formatter for filenames - makes tagging easier:<br> -f bestaudio -x --audio-format mp3 -o "%(playlist_index)s %(title)s.%(ext)s"</li></ul>
+            <li><a href="https://www.mp3tag.de/en/">mp3tag</a></li>
+        </ul>
+        <h3>weird errors you may run into</h3>
+        <ul>
+            <li style="font-style: italic; font-weight: bolder;">with the nw-a16</li>
+            <ul>
+                <li>the nw-a16 is a little picky with what it chooses to display sometimes.</li>
+                <li>for album covers, i always right click the cover in mp3tag and set the resolution to <code>Max Size: 500px</code></li>
+                <li>sometimes you'll have a perfectly fine album cover that's 500x500px and still doesn't render on the nw-a16. whenever this happens i just look up <code>{album title} spotify</code> and download the cover from google images since it's usually reasonable quality and such. if the spotify cover looks bad you can also go on archive.org and any album you download will have in the Download Options <code>JPEG</code>, which is also a good place, and oftentimes you can find really high quality scans here</li>
+                <li>i usually stick to just JPEGs since any other file format doesn't reliably work in my experience</li>
+            </ul>
+        </ul>
+    </div>
+</body>
