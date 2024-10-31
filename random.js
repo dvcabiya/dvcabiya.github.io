@@ -19,7 +19,8 @@ const sites = [
   "https://www.youtube.com/watch?v=bYaCpTecfTg", // daydream 
   "https://www.youtube.com/watch?v=IHvRY1SC9qw", // midnight in a  perfect world
   "https://www.youtube.com/watch?v=Ki7GrRTNYfU", // engaña
-  "https://www.youtube.com/watch?v=HPcgbOHkEfk" // los liibros de la bueena memoria
+  "https://www.youtube.com/watch?v=HPcgbOHkEfk", // los liibros de la bueena memoria
+  "https://www.youtube.com/watch?v=yxF0rrK7ZeQ" //  Plegaria para un Niño Dormido 
 ] 
 function randomSite(){
   var i = Math.floor(Math.random() * sites.length)
