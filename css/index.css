@@ -21,6 +21,7 @@ body{
   text-align: center; 
   min-height:fit-content;
   height: 96vh;
+  font-family: SymbolaRegular;
   font-size: 100%;
 }
 a{

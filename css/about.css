@@ -10,14 +10,15 @@ body{
 .bodyText{
   line-height: 110%;
   text-align: center;
-  width: 60vw;
-  padding: 10px;
+  width: 900px;
+  margin: 20px;
   height: fit-content;
 }
 .me{
-  width: 60vw;
-  max-width: 900px;
+  width: 700px
+
 }
+
 a{
   font-style: italic; 
   color: #E81452;
